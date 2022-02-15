@@ -1,0 +1,29 @@
+package feb08;
+
+// Step 01: Write the class Definition
+
+class MyFirstClass{
+	private int x=10;
+	double y=20.4;
+	void printxandy() {
+		System.out.println(x);
+		System.out.println(y);
+	}
+	
+}
+
+// Step 02: Create a tester class
+
+public class printHi {
+	
+	public static void main(String[] args) {
+		
+		// Step 03: Create an object
+		
+		MyFirstClass c = new MyFirstClass();
+		System.out.println(c.x);
+		System.out.println(c.y);
+		c.printxandy();
+	}
+
+}
