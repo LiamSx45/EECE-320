@@ -1,0 +1,3 @@
+module practiceexamples {
+	exports practiceexamples;
+}
